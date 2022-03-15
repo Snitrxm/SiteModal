@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #fff;
+    height: 60px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 60px;
+
+}
+
+.logo{
+    margin-left: 120px;
+}
+
+.links{
+    margin-right: 200px;
+    font-size: 15px;
+}
+
+.links a{
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+    color: #000;
+    transition: 0.2s;
+}
+
+.links a:hover{
+    background-color: #000;
+    border-radius: 5px;
+    padding: 12px 10px;
+    color: #fff;
+}
+
+#signButton{
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 12px 10px;
+}
+
+#signButton:hover{
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 12px 10px;
+}
+
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: #bbb;
+}
+
+.containerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 300px;
+    height: 100vh;
+}
+
+#mainTitle{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+#paragraphMainTitle{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.signButtonMain{
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 12px 10px;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.signButtonMain:hover{
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 12px 10px;
+}
+
+
+.img{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 200px
+}
+
+.image{
+    width: 750px;
+    height: 700px;
+}
+
+
+
+
+
+
+
